@@ -1,0 +1,46 @@
+.post {
+   &__title {
+      font-size: 3em;
+      text-align: center;
+      margin-bottom: 20px;
+   }
+
+   &-item {
+      display: grid;
+      border: 3px solid teal;
+      border-radius: 5px;
+      padding: 10px 20px;
+      &:not(:last-child) {
+         margin-bottom: 10px;
+      }
+      &__head {
+         display: flex;
+         align-items: baseline;
+         column-gap: 16px;
+         margin-bottom: 8px;
+      }
+      &__id {
+         font-size: 1.2em;
+         font-weight: 700;
+      }
+      &__name {
+         font-size: 1.5em;
+         font-weight: 700;
+      }
+      &__body {
+         font-size: 1.2em;
+      }
+      &__buttons {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         align-items: center;
+         justify-self: end;
+         column-gap: 6px;
+         button {
+            padding: 6px 12px;
+            border: 2px solid teal;
+            border-radius: 5px;
+         }
+      }
+   }
+}
