@@ -1,5 +1,5 @@
 html {
-	scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 
 html,
@@ -33,19 +33,20 @@ audio,
 video,
 input,
 textarea {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   box-sizing: border-box;
 }
 
 html,
 body {
-	position: relative;
-	min-height: 100%;
+   position: relative;
+   min-height: 100%;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 article,
@@ -59,39 +60,39 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+   display: block;
 }
 
 ol,
 ul {
-	list-style: none;
+   list-style: none;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+   color: inherit;
+   text-decoration: none;
 }
 
 input,
 textarea {
-	color: inherit;
+   color: inherit;
 
-	&::placeholder {
-		color: inherit;
-		font-size: 1em;
-	}
+   &::placeholder {
+      color: inherit;
+      font-size: 1em;
+   }
 
-	&:focus {
-		outline: none;
-	}
+   &:focus {
+      outline: none;
+   }
 }
 
 button {
-	cursor: pointer;
-	color: inherit;
-	border: none;
-	background-color: transparent;
-	padding: 0;
+   cursor: pointer;
+   color: inherit;
+   border: none;
+   background-color: transparent;
+   padding: 0;
 }
 
 textarea,
@@ -100,6 +101,6 @@ input[type="text"],
 input[type="button"],
 input[type="submit"],
 .input-checkbox {
-	-webkit-appearance: none;
-	border-radius: 0;
+   -webkit-appearance: none;
+   border-radius: 0;
 }
